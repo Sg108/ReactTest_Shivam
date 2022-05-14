@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    gap:70rem;
+    height:12vh
+}
+.nav-items{
+    display:flex;
+    gap:5rem;
+    padding:2rem
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.login{
+    padding:1rem 3.5rem;
+    background-color: #0E79BD;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+.navitem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+.navitem a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0E79BD;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+}
+.fish-image{
+    flex-grow:1
+}
+.fish-image img{
+    width: 120rem;
+}

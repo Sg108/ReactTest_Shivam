@@ -1,0 +1,42 @@
+.read-container{
+ width:120rem;
+ height:36rem;
+ padding: 4rem;
+ display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 2rem;
+    margin-bottom: 8rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.read-sub-head{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.read{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.read-text{
+    font-size: 1.8rem;
+}
+.read-button{
+    
+    position: relative;
+    width: 20rem;
+    font-size: 2rem;
+    /* text-decoration: none; */
+    background-color: transparent;
+    color: #0E79BD;
+
+    border: none;
+    left: 90rem;
+}
+.read-head{
+    font-size: 3rem;
+    margin-bottom: 6rem;
+    font-weight: bold;
+}
